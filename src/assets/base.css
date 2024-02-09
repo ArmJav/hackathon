@@ -1,0 +1,51 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import './monserrat.css';
+:root {
+  --cl-dark: #0f1016;
+  --cl-purple: #ab00ea;
+  --cl-blue: #0055ff;
+  --cl-blue-opacit: #0047d6d0;
+  --cl-fiolet: #241433;
+  --cl-dark-blue: #15161f;
+  --cl-grey: #242633;
+  --cl-white: white;
+  --cl-border: #C0C0C0;
+  
+}
+
+
+:root {
+  --color-text: var(--cl-white);
+  --color-background: var(--cl-dark);
+  --color-footer:var(--cl-blue-opacit);
+  --size-file-wh: 800px;
+  --size-file-hg: 247px;
+}
+
+/* semantic color variables for this project */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+  Montserrat, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
