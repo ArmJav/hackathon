@@ -31,9 +31,11 @@
         position: fixed;
         top:0;
         left: 0;
-        background-color: var(--color-background);
-        padding: 40px;
+        /* background-color: var(--color-background); */
+        padding: 10px 5vw 0 5vw;
     }
+
+ 
 
     
 </style>
